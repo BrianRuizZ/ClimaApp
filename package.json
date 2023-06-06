@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.1.4"
+  },
+  "name": "climajs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss-cli -i styles.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

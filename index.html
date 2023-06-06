@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-color-fondo">
+    <div class="contenedor flex justify-center ">
+    <div class="main border border-2 border-color-main  mt-10 text-lg rounded-lg bg-tercer-color p-8">
+        <header class="header flex justify-center flex-col p-4 ">
+            <h1 class="text-center p-6 text-40 font-bold text-color-main ">API Clima</h1>
+            <select class="font-mono block appearance-none bg-white border border-gray-300 text-gray-700 rounded focus:outline-none focus:bg-white focus:border-gray-500 cursor-pointer text-25 p-3 font-bold Select rounded">
+                <option value="Buenos Aires">Argentina</option>
+                <option value="Bogota">Colombia</option>
+                <option value="Ottawa">Canada</option>
+                <option value="Santiago">Chile</option>
+                <option value="Washington">Estados Unidos</option>
+                <option value="Montevideo">Uruguay</option>
+                <option value="Lima">Peru</option>
+                <option value="Asuncion">Paraguay</option>
+                <option value="Mexico City">Mexico</option>
+            </select>
+        </header>
+    <div class="flex flex-col items-center">
+    <h2 class="Pais-temp p-4 text-30 font-extrabold text-color-main">Buenos Aires</h2>
+    <p class="temp-m text-35 p-5 text-color-secundario">Temperatura</p>
+    <p class="temperatura text-40 font-bold p-4 shadow-lg rounded-xl ">Cargando...</p>
+    <div class="max-min items-center">
+    <p class="maxminP maxtext p-2 text-30 text-color-secundario">Max:</p>
+    <p class="max p-2 text-center text-25 font-bold shadow-lg rounded-lg">Cargando...</p>
+    <p class="maxminP mintext p-2 text-30 text-color-secundario">Min:</p>
+    <p class="min p-2 text-center text-25 font-bold shadow-lg rounded-lg">Cargando...</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
