@@ -11,6 +11,7 @@ module.exports = {
         '20': '20px',
       },
       colors: {
+        'color-select': '#010101',
         'color-fondo': '#1d1d1d',
         'color-main': '#0A4D68',
         'color-secundario' : '#088395',
